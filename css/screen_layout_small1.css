@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+/* Layout for small screens (from 320px to 480px) */
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+@media only screen and (min-width:50px) and (max-width:480px){
+header{
+	height:143px;
+	background-image:url(../imagens/topo/capa-480px.jpg); 
+	background-repeat:no-repeat;
+	background-repeat:no-repeat;	
+	background-size:100% 100%;
+}
+
+#principal {
+	max-width: 640px;
+	margin: 0px auto 0px auto;
+	position: relative;	
+}
+
+h1 {font-family: 'Francois One', sans-serif !important; font-size: 3em !important; color: #cf5c3f; text-align: center; margin:0; padding: 0 0 2% 2%;}
+h2 {font-family: 'Francois One', sans-serif !important;}
+h3 {font-family: 'Francois One', sans-serif !important;}
+h4 {font-family: 'Francois One', sans-serif !important; color: #333333;}
+
+p{
+	line-height:1.5em;
+	font-family: 'Lato', sans-serif;
+	font-size:1.2em;
+	}
+
+#bts_cv-container{
+	width: 100%;
+	height: auto;
+	z-index:7;
+	margin-top: 10px;
+}
+
+#menu-cv{
+	width:100%; height:auto; margin:0 auto 0 auto;
+	}
+	
+.btn {
+  width: 100%;
+  float:left;
+  font-family: 'Lato', sans-serif;
+  color: #cf5c3f;
+  font-size: 20px;
+  padding: 1% 0.1% 1% 0.6%;
+  border: solid #cf5c3f 2px;
+  border-radius: 30px;
+  text-decoration: none; 
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background: #cc715c;
+  color:#fff;
+  text-decoration: none;
+}
+
+
+#projetos{
+	float:left;
+	width:100%;
+	height:auto;
+	margin-bottom:10px;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	background-color:#F0F0F0;
+	}
+	
+#quem-sou{
+	float:left;
+	width:100%;
+	height:auto;
+	margin-bottom:10px;
+	padding:0 10px;
+}
+
+#quem-sou h2{
+	text-align:center;
+}
+
+#quem-sou p{
+	color:#000; 
+	font-size:1.2rem; 
+	line-height:1.5rem; 
+	text-align:left; 
+	margin:0 1%;
+	}
+
+/* BANDEIRINHA */
+
+#container-flags div button:hover, #container-flags div a:hover{
+	/* CLASSE "ANIMATED" do animate.css*/
+	 -webkit-animation-duration: 1s;
+	 animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	
+	/* CLASSE "FLASH" do animate.css*/
+	 -webkit-animation-name: flash;
+	  animation-name: flash;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.circle{
+  display: inline-block;
+    text-decoration: none;
+    background: #5b98ca;
+    color: rgba(255, 255, 255, 0.47);
+    font-weight: bold;
+    width: 140px;
+    height: 140px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 5px #5b98ca;
+    border: solid 2px rgba(255, 255, 255, 0.47);
+    transition: .4s;
+}
+
+.circle:hover{
+    border-style: dashed;
+}
+
+/* FIM BANDEIRINHA */
+
+.clearfix{
+	clear:both;
+	line-height:2px;
+}
+	
+/* ESTILO ÍCONES */
+.fa-newspaper-o{color:#fff;}
+
+.fa-globe{color:#fff;}
+
+.fa-film{color:#fff;}
+
+.fa-gamepad{color:#fff;}
+
+/* FIM ESTILO ÍCONES */
+
+#container-flags{	
+    height: 500px;
+    position: relative;
+    top: 60px;
+	padding:0 2%
+}
+
+#prod-grafica{
+  text-align:center;
+  display:inline-block;
+  float:left;
+  height:191px;
+  width:50%;   
+  margin-top: 10px;
+    }
+
+#web-design{
+  text-align:center;
+  display:inline-block;
+  float:left;
+  height:191px;
+  width:50%;  
+  margin-top: 10px;
+     }	
+	
+#prod-videos{
+  text-align:center;
+  display:inline-block;
+  float:left;
+  height:191px;
+  width:50%; 
+  margin-top: 20px;  
+    }
+	
+#games{
+  text-align:center;
+  display:inline-block;
+  float:left;
+  height:191px;
+  width:50%; 
+  margin-top: 20px;  
+    }
+	
+#motivacao{
+	display: none;
+}
+
+#motivacao div{
+	display: none;
+}
+
+#motivacao div p{
+	display: none;
+}
+
+#motivacao-320px{
+	display:block;
+	width:100%;
+	height:300px;
+	background-image:url(../imagens/motivacao/motivacao-320px.jpg);	
+	background-repeat: no-repeat;
+	clear: both;
+	position: relative;
+	top: 50px;
+}
+
+#motivacao-frase p{
+	display:block;
+	color:#000;
+	width:60%;
+	font-size:1.3rem;
+	line-height:1.4rem;
+}
+
+#atendimento{	
+	width:100%;
+	padding:0 10px;
+}
+
+/*
+#atencao{width:100%; height:261px; float:left; background-image:url(../imagens/atencao.jpg); background-repeat:no-repeat;}
+
+#texto-atend{width:100%; clear:both; margin-right:1%; font-size: 1.6rem; line-height: 1.7rem;}  */
+
+#grupo{clear:both;
+		width:100%;
+		height:330px;
+	    background-image:url(../imagens/grupo/teamwork-480px.jpg);	
+		background-repeat:no-repeat;
+}
+
+#grupo div{
+	width:100%;
+	height:auto;
+	padding:10px 0 10px 0;
+	position:relative;
+	top:213px;
+}
+
+#grupo div p{
+	color:#000;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	padding:0 10px;
+}
+
+#contato{
+	width:100%;
+	height:630px;
+	background-color:#f0f0f0;	
+	position:relative;
+	margin-top: 20px;
+}
+
+#caixas-texto{
+	width:90%;
+	height:auto;	
+	position:absolute;
+	top:75px;	
+	float:left;
+	padding-left:10%;
+	}
+
+form{
+	width: 90%;
+}		
+
+label{
+	color: rgba(255,82,74,1);
+}
+
+input[type=text], textarea{
+	width: 100%;
+}
+
+#telefone{
+	display: none;	
+}
+
+#telefone p{
+	text-indent:5px; 
+	font-family:'Francois One', sans-serif !important; 
+	font-size:2.2rem; 
+	color:rgba(255,82,74,1); 
+	line-height:2.2rem;
+	margin-left:25%;
+	margin-bottom:40%;
+	margin-top:0;
+}
+
+#telefone p span{
+	font-size:0.5em; 
+	font-family:francois one; 
+	text-indent:35px
+}
+
+span {
+  display:inline-block;
+  margin:5px 0;
+  padding-top:20px;
+}
+
+#bt_enviar{	  
+  font-family: 'Lato', sans-serif;
+  color: #cf5c3f;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #cf5c3f 2px;
+  text-decoration: none; 
+  margin-top:10px;
+}
+
+#bt_enviar:hover {
+  background: #cc715c;
+  color:#fff;
+  text-decoration: none;
+}
+
+
+footer {width:100%; height:140px; font-size:.85em; background-color: #5b98ca; padding: 10px 0 10px 0;}
+
+#logo-rodape{
+	width:300px;
+	height:120px;
+	position:relative;
+	margin:5px auto 10px auto;
+	background-image:url(../imagens/rodape/logo.png);
+	background-repeat:no-repeat;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5b98ca;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 0 auto; /* 0% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: auto;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#video1{
+	width:100%; 
+	height:auto; 
+}
+
+#video2{
+	width:100%; 
+	height:auto; 
+}
+}
+

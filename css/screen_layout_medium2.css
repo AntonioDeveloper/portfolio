@@ -1,0 +1,446 @@
+@charset "UTF-8";
+
+/* Layout for medium screens (from 768px to 980px) */
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+@media only screen and (min-width: 768px) and (max-width: 980px){
+header{
+	height:341px;
+	width:100%;
+	background-image:url(../imagens/topo/capa-768px.jpg); 
+	background-repeat:no-repeat;
+}
+
+#principal {
+	max-width: 768px;
+	margin: 0px auto 0px auto;
+	position: relative;	
+}
+
+h1 {font-family: 'Francois One', sans-serif !important; font-size: 3em !important; color: #cf5c3f; margin:0; padding: 0 0 2% 2%;}
+h2 {font-family: 'Francois One', sans-serif !important;}
+h3 {font-family: 'Francois One', sans-serif !important;}
+h4 {font-family: 'Francois One', sans-serif !important; color: #333333;}
+
+p{
+	line-height:1.5em;
+	font-family: 'Lato', sans-serif;
+	font-size:1.2em;
+	}
+
+#bts_cv-container{
+	width: 100%;
+	height: auto;
+	margin: 4% auto;
+	padding: 0 23%;
+	z-index:7;
+}
+
+#menu-cv{
+	width:100%; height:auto; margin:0 auto 0 auto;
+	}
+
+/*#menu ul li a{text-decoration:none; color:#ffffff; margin-right:10px;}*/
+
+.btn {
+  float:left;
+  font-family: 'Lato', sans-serif;
+  color: #cf5c3f;
+  font-size: 1.2em;
+  padding: 1% 2%;
+  margin-right: 2%;
+  border: solid #cf5c3f 2px;
+  border-radius: 30px;
+  text-decoration: none; 
+}
+
+.btn:hover {
+  background: #cc715c;
+  color:#fff;
+  text-decoration: none;
+}
+
+.btn li{
+	 margin:20% 30% 10% auto; 
+	 width:100%;	 
+}
+
+.btn ul li a{
+	 text-align: center;
+	 text-decoration: none;
+}
+
+#projetos{
+	float:left;
+	width:100%;
+	height:auto;
+	margin-bottom:10px;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	background-color:#F0F0F0;
+	}
+
+#galeria-projetos #site-confeitaria{
+	display:block;
+	
+}
+	
+#quem-sou{
+	float:left;
+	width:100%;
+	height:auto;
+	margin-bottom:10px;
+}
+
+#quem-sou h2{
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	text-align: center;	
+}
+
+#quem-sou p{
+	color:#000; 
+	font-size:1.2rem; 
+	line-height:1.5rem;
+	text-align:left; 
+	margin-bottom:10px;
+	}
+
+/* BANDEIRINHA */
+
+#container-flags div button:hover, #container-flags div a:hover{
+	/* CLASSE "ANIMATED" do animate.css*/
+	 -webkit-animation-duration: 1s;
+	 animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	
+	/* CLASSE "FLASH" do animate.css*/
+	 -webkit-animation-name: flash;
+	  animation-name: flash;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.circle{
+  display: inline-block;
+    text-decoration: none;
+    background: #5b98ca;
+    color: rgba(255, 255, 255, 0.47);
+    font-weight: bold;
+    width: 140px;
+    height: 140px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 5px #5b98ca;
+    border: solid 2px rgba(255, 255, 255, 0.47);
+    transition: .4s;
+}
+
+.circle:hover{
+    border-style: dashed;
+}
+
+/* FIM BANDEIRINHA */
+
+.clearfix{
+	clear:both;
+	line-height:2px;
+}
+	
+/* ESTILO ÍCONES */
+.fa-newspaper-o{color:#fff;}
+
+.fa-globe{color:#fff;}
+
+.fa-film{color:#fff;}
+
+.fa-gamepad{color:#fff;}
+
+/* FIM ESTILO ÍCONES */
+
+#container-flags{
+	width:100%;
+	height:191px;
+	margin: 2% 0;	
+	padding:8px 20px;
+}
+
+#prod-grafica{
+  text-align:center;
+  display:inline-block;
+  float:left;
+  height:191px;
+  width:25%;   
+    }
+
+#web-design{
+  text-align:center;
+  display:inline-block;
+  float:left;
+  height:191px;
+  width:25%;  
+     }	
+	
+#prod-videos{
+  text-align:center;
+  display:inline-block;
+  float:left;
+  height:191px;
+  width:25%;   
+    }
+	
+#games{
+  text-align:center;
+  display:inline-block;
+  float:left;
+  height:191px;
+  width:25%;    
+    }
+	
+#motivacao{
+	width:100%;
+	height:300px;
+	background-image:url(../imagens/motivacao/motivacao-768px.jpg);	
+	clear: both;
+	margin: 80px 0 0 0;
+}
+
+#motivacao div{
+	width:60%;
+	padding-left:100px;
+	padding-top:90px;
+}
+
+#motivacao div p{
+	color: #fff;
+}
+
+#motivacao-320px{
+	display:none;
+}
+
+#motivacao-frase{
+	display:none;
+}
+
+#atendimento{	
+	width:100%;
+}
+
+/*
+#atencao{width:300px; height:261px; float:left; background-image:url(../imagens/atencao-300px.jpg); background-repeat:no-repeat;} */
+
+#texto-atend{width:100%;} 
+
+#grupo{clear:both;
+		width:100%;
+		height:339px;
+	    background-image:url(../imagens/grupo/teamwork-768px.jpg);	
+		background-repeat:no-repeat;
+}
+
+#grupo div{
+	width:300px;
+	height:auto;
+	padding:10px 10px 10px 10px;
+	position:absolute;
+	margin:5% 30% auto 30%;
+	background:rgba(207,92,63,0.7);
+}
+
+#grupo div p{
+	color:#fff;
+}
+
+#contato{
+	width:100%;
+	height:620px;
+	background-image:url(../imagens/contato/contato-inclinado-719px.jpg);
+	background-size: cover;
+	margin-top:20px;
+}
+
+#caixas-texto{
+	width:50%;
+	height:300px;	
+	padding-top:5px;	
+	float:left;
+	}
+
+form{
+	margin-left:80px;
+}	
+
+label{
+	color: rgba(255,82,74,1);
+}
+
+#telefone{
+    display: none;	
+}
+
+#telefone p{
+	text-indent:5px; 
+	font-family:'Francois One', sans-serif !important;
+	font-size:2.5em; 
+	color:rgba(255,82,74,1); 
+	line-height:.7em;
+	margin-left:20%;
+	margin-bottom:40%;
+	margin-top:0;
+}
+
+#telefone p span{
+	font-size:0.5em; 
+	font-family:francois one; 
+	text-indent:35px
+}
+
+span {
+  display:inline-block;
+  margin:5px 0;
+  padding-top:20px;
+}
+
+#bt_enviar{	
+  font-family: 'Lato', sans-serif;
+  color: #cf5c3f;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #cf5c3f 2px;
+  text-decoration: none; 
+}
+
+#bt_enviar:hover {
+  background: #cc715c;
+  color:#fff;
+  text-decoration: none;
+}
+
+footer {width:100%; height:140px; font-size:.85em; background-color: #5b98ca; padding: 10px 0 10px 0;}
+
+#logo-rodape{
+	width:300px;
+	height:120px;
+	position:relative;
+	margin:5px auto 10px auto;
+	background-image:url(../imagens/rodape/logo.png);
+	background-repeat:no-repeat;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5b98ca;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 0 auto; /* 0% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: 800px;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#video1{
+	width:48%; 
+	height:auto; 
+	float:left;
+}
+
+#video2{
+	width:48%; 
+	height:auto; 
+	float:right;
+}
+}
+
