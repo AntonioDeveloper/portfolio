@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* Layout for medium screens (from 768px to 980px) */
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+@media only screen and (min-width: 768px) and (max-width: 980px){
+
+header{
+	background-color:#F0F0F0;
+	max-width:100%;
+}
+
+h1 {font-family: 'Francois One', sans-serif; font-size: 2.5em; color: #cf5c3f;}
+
+h2{
+	color:#cf5c3f;
+}
+
+header img{
+	height:auto;
+	max-width:100%;
+	}
+
+
+.btn {  
+  font-family: Georgia;
+  color: #cf5c3f;
+  font-size: 1.2em;
+  padding: 1% 1% 1% 1%;
+  border: solid #cf5c3f 2px;
+  text-decoration: none; 
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background: #cc715c;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+p{
+	line-height:1.5em;
+	font-family: Cambria;
+	font-size:1.2em;
+	background-color: white;
+	padding: 2%;
+	height: 420px;
+	}
+	
+#principal {
+	max-width: 980px;
+	margin: 0px auto 0px auto;
+	position: relative;	
+}
+
+#projetos{
+	width:100%;
+	height:auto;
+	background-color:#F0F0F0;
+	padding: 20px 0;
+	}
+	
+.linha{
+	width:auto;
+	height:800px;
+	padding: 0 5%;
+	}
+
+#eros, #arquitetura, #confeitaria, #limiar{
+	width:40%;
+	height:800px;
+	margin:0 5%;
+	float: left;	
+}	
+
+
+#bt_enviar{	
+  font-family: Georgia;
+  color: #cf5c3f;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #cf5c3f 2px;
+  text-decoration: none; 
+}
+
+#bt_enviar:hover {
+  background: #cc715c;
+  color:#fff;
+  text-decoration: none;
+}
+
+footer {height:140px; width: 100%; font-size:.85em; background-color: #665567; padding: 10px 0}
+
+#logo-rodape{
+	width:300px;
+	height:120px;
+	position:relative;
+	margin:5px 340px 10px 340px;
+	background-image:url(../imagens/rodape/logo.png);
+}
