@@ -1,0 +1,46 @@
+#main {
+	width: 900px;
+}
+#lateral {
+	float: left;
+	width: 79px;
+	margin-top: -20px;
+}
+#topo {
+	float: right;
+	width: 824px;
+	margin-top: -20px;
+	height: 144px;
+	margin-left: -100px;
+}
+#logo-consultorio{
+float:left;
+width:745px;
+height:144px;
+}
+
+#logo-facebook{
+float:right;
+width:79px;
+height:144px;
+z-index:10;
+}
+
+#menu {
+	height: 30px;
+	width: 650px;
+	margin-left: 100px;
+}
+#conteudo {
+	width: 800px;
+	float: right;
+	margin-top: 20px;
+	line-height: 180%;
+}
+#rodape {
+	float: right;
+	width: 800px;
+	line-height: 180%;
+	margin-top: 0px;
+	height: 100px;
+}
